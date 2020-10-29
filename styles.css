@@ -10,6 +10,13 @@ body {
   color: #FEF2BF;
 }
 
+@media screen and (min-width:768px) {
+  .start-button{
+    visibility: collapse;
+  }
+
+}
+
 .start-button{
   width: 200px;
   font-family: 'Press Start 2P', cursive;
@@ -22,7 +29,7 @@ body {
 }
 
 .hide{
-    visibility: collapse; 
+    visibility: collapse;
 }
 
 .container {
