@@ -19,6 +19,8 @@ function nextSequence(){
   $("h1").text("Level "+ level);
   level++;
 
+  $(".start-button").addClass("hide");
+
 }
 
 function playSound(variable){
@@ -79,4 +81,7 @@ function startOver(){
   gamePattern=[];
   userClickedPattern=[];
   $(document).one("keypress",nextSequence);
+  $(".start-button").removeClass("hide");
 }
+
+$(".start-button").click(nextSequence);
