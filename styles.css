@@ -10,6 +10,21 @@ body {
   color: #FEF2BF;
 }
 
+.start-button{
+  width: 200px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #FEF2BF;
+  padding: 20px;
+}
+
+.start-button:hover{
+  background-color: white;
+}
+
+.hide{
+    visibility: collapse; 
+}
+
 .container {
   display: block;
   width: 50%;
