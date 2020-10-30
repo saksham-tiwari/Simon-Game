@@ -7,8 +7,25 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
+  margin-bottom: 15px;
   color: #FEF2BF;
 }
+
+a:hover{
+  color: #FEF2BF;
+
+}
+
+a{
+  color: white;
+  margin-top: 0;
+}
+
+a p{
+  display:none;
+}
+
+a:hover p{display:block;}
 
 @media screen and (min-width:1000px) {
   .start-button{
